@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuyudhan Tiwari - Human Resource Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .fade-in {
+            animation: fadeIn 1s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header & Navigation -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-gray-900">
+                <a href="#">Yuyudhan Tiwari</a>
+            </div>
+            <div class="hidden md:flex space-x-8">
+                <a href="#about" class="text-gray-600 hover:text-indigo-600 transition duration-300">About</a>
+                <a href="#skills" class="text-gray-600 hover:text-indigo-600 transition duration-300">Skills</a>
+                <a href="#projects" class="text-gray-600 hover:text-indigo-600 transition duration-300">Projects</a>
+                <a href="#contact" class="text-gray-600 hover:text-indigo-600 transition duration-300">Contact</a>
+            </div>
+            <div class="md:hidden">
+                <button id="menu-btn" class="text-gray-600 focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                </button>
+            </div>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="md:hidden hidden px-6 pb-4">
+            <a href="#about" class="block py-2 text-gray-600 hover:text-indigo-600">About</a>
+            <a href="#skills" class="block py-2 text-gray-600 hover:text-indigo-600">Skills</a>
+            <a href="#projects" class="block py-2 text-gray-600 hover:text-indigo-600">Projects</a>
+            <a href="#contact" class="block py-2 text-gray-600 hover:text-indigo-600">Contact</a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-6 py-12">
+
+        <!-- Hero Section -->
+        <section id="home" class="text-center py-20 fade-in">
+            <h1 class="text-5xl md:text-6xl font-extrabold text-gray-900 mb-4">Yuyudhan Tiwari</h1>
+            <p class="text-2xl text-indigo-600 font-semibold mb-6">Human Resource Professional</p>
+            <p class="max-w-3xl mx-auto text-lg text-gray-600 mb-8 italic">"Alone we can do so little; together we can do so much."</p>
+            <a href="#contact" class="bg-indigo-600 text-white font-bold py-3 px-8 rounded-full hover:bg-indigo-700 transition duration-300 text-lg">Get in Touch</a>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="py-20 bg-white rounded-2xl shadow-lg my-12 fade-in">
+            <div class="max-w-4xl mx-auto px-6">
+                <h2 class="text-4xl font-bold text-center mb-4 text-gray-900">About Me</h2>
+                <div class="w-24 h-1 bg-indigo-500 mx-auto mb-12"></div>
+                <p class="text-center text-xl text-gray-700 leading-relaxed">
+                    A dedicated and dynamic MBA student specializing in Human Resources with hands-on project experience, a passion for community development, and strong interpersonal and organizational skills. Adept at communication, collaboration, and problem-solving in diverse settings.
+                </p>
+            </div>
+        </section>
+
+        <!-- Skills & Expertise Section -->
+        <section id="skills" class="py-20 my-12 fade-in">
+            <h2 class="text-4xl font-bold text-center mb-4 text-gray-900">Skills & Expertise</h2>
+            <div class="w-24 h-1 bg-indigo-500 mx-auto mb-12"></div>
+            <div class="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
+                <!-- Core Values -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-6">Core Values</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-center text-lg"><svg class="w-6 h-6 text-indigo-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>Leadership</li>
+                        <li class="flex items-center text-lg"><svg class="w-6 h-6 text-indigo-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>Collaboration</li>
+                        <li class="flex items-center text-lg"><svg class="w-6 h-6 text-indigo-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>Effective Communication</li>
+                        <li class="flex items-center text-lg"><svg class="w-6 h-6 text-indigo-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>Empathy & Emotional Intelligence</li>
+                    </ul>
+                </div>
+                <!-- Skills -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-6">Skills</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-center text-lg"><svg class="w-6 h-6 text-indigo-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>Leadership & People Management</li>
+                        <li class="flex items-center text-lg"><svg class="w-6 h-6 text-indigo-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>Interpersonal Communication</li>
+                        <li class="flex items-center text-lg"><svg class="w-6 h-6 text-indigo-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>Recruitment & Talent Engagement</li>
+                        <li class="flex items-center text-lg"><svg class="w-6 h-6 text-indigo-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>Conflict Resolution</li>
+                        <li class="flex items-center text-lg"><svg class="w-6 h-6 text-indigo-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>Problem Solving</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="py-20 bg-white rounded-2xl shadow-lg my-12 fade-in">
+            <div class="max-w-5xl mx-auto px-6">
+                <h2 class="text-4xl font-bold text-center mb-4 text-gray-900">Projects & Publications</h2>
+                <div class="w-24 h-1 bg-indigo-500 mx-auto mb-12"></div>
+                <div class="space-y-12">
+                    <!-- Project 1 -->
+                    <div class="bg-gray-50 p-8 rounded-xl transform hover:scale-105 transition duration-300">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-2">Community Development Project – Surya Vikas Samiti</h3>
+                        <p class="text-indigo-500 font-medium mb-4">July 2022</p>
+                        <ul class="list-disc list-inside text-gray-700 space-y-2">
+                            <li>Collaborated with NGO officials to implement impactful outreach programs.</li>
+                            <li>Developed and honed stakeholder communication and engagement skills.</li>
+                        </ul>
+                    </div>
+                    <!-- Project 2 -->
+                    <div class="bg-gray-50 p-8 rounded-xl transform hover:scale-105 transition duration-300">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-2">Articles Published</h3>
+                        <div class="mt-4">
+                            <h4 class="font-semibold text-lg text-gray-800">Student Mental Health</h4>
+                            <p class="text-indigo-500 font-medium mb-2">May 2024</p>
+                            <p class="text-gray-700">Reflects empathy and a strong awareness of workplace well-being.</p>
+                        </div>
+                        <div class="mt-6">
+                            <h4 class="font-semibold text-lg text-gray-800">Climate Change Impact on Agriculture</h4>
+                            <p class="text-indigo-500 font-medium mb-2">May 2022</p>
+                            <p class="text-gray-700">Showcases research capabilities and a commitment to social responsibility.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Contact & Footer -->
+    <footer id="contact" class="bg-gray-900 text-white py-16 fade-in">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-4">Contact Me</h2>
+            <p class="text-lg text-gray-300 mb-8">Feel free to reach out for collaborations or just a friendly chat.</p>
+            <div class="flex justify-center items-center space-x-8 mb-8">
+                <a href="mailto:Yuyudhantiwari2000@gmail.com" class="flex items-center text-lg hover:text-indigo-400 transition duration-300">
+                    <svg class="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                    Yuyudhantiwari2000@gmail.com
+                </a>
+                <a href="tel:+919169964233" class="flex items-center text-lg hover:text-indigo-400 transition duration-300">
+                    <svg class="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
+                    +91 9169964233
+                </a>
+            </div>
+            <div class="flex justify-center items-center space-x-6">
+                <a href="https://linkedin.com/in/yuyudhan-tiwari-2b9b91220" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-white transition duration-300">
+                    <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" clip-rule="evenodd"/></svg>
+                </a>
+            </div>
+            <p class="mt-8 text-gray-500">&copy; 2025 Yuyudhan Tiwari. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                mobileMenu.classList.add('hidden'); // Close menu on click
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>
